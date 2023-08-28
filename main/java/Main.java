@@ -27,8 +27,8 @@ public class Main {
     private static void debug() {
         int sum = 0;
         for (int i = 0; i < 20; i++) {
-            if (sum > 30) {
-                System.out.println("sumが30を超えたため処理を中断します。");
+            if (sum > 50) {
+                System.out.println("sumが50を超えたため処理を中断します。");
                 break;
             }
             if (i % 2 == 0) {
